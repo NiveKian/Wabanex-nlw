@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :wabanex, Wabanex.Repo,
   username: "postgres",
-  password: "bJAzDIAnbU5dYx",
+  password: "bJAzDIAnbU5dYx", # member changing password to postgres
   database: "wabanex_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,

@@ -7,7 +7,7 @@ use Mix.Config
 # Run `mix help test` for more information.
 config :wabanex, Wabanex.Repo,
   username: "postgres",
-  password: "bJAzDIAnbU5dYx",
+  password: "bJAzDIAnbU5dYx", # member changing password to postgres
   database: "wabanex_test#{System.get_env("MIX_TEST_PARTITION")}",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
