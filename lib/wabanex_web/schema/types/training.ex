@@ -12,9 +12,9 @@ defmodule WabanexWeb.Schema.Types.Training do
   end
 
   input_object :create_training_input do
-    field :user_id, non_null(:uuid4)
+    field :user_id, non_null(:uuid4), description: "Training User ID"
     field :start_date, non_null(:string), description: "Training Start Date"
     field :end_date, non_null(:string), description: "Training End Date"
-    field :exercices, list_of(:create_exercice_input)
+    field :exercices, list_of(:create_exercice_input), description: "Training List of Exercices"
   end
 end

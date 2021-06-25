@@ -9,7 +9,7 @@ defmodule Wabanex.Training do
   @fields [:start_date, :end_date, :user_id]
 
   # struct that module will follow
-  schema "users" do
+  schema "trainings" do
     field :start_date, :date, null: false
     field :end_date, :date, null: false
 

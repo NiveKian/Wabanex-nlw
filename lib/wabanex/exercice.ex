@@ -9,7 +9,7 @@ defmodule Wabanex.Exercice do
   @fields [:name, :youtube_video_url, :protocol_description, :repetitions]
 
   # struct that module will follow
-  schema "users" do
+  schema "exercices" do
     field :name, :string, null: false
     field :youtube_video_url, :string, null: false
     field :protocol_description, :string, null: false
